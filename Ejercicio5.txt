@@ -11,7 +11,7 @@
 11 [href*="127]
 12 [href^=http]
 13 a, p, h1 {
-14 
-15 
-16 
-17 
+14 main {p}
+15 div+.title-1{h1}
+16 div ~ p{h1}
+17 div ~ p{main}
